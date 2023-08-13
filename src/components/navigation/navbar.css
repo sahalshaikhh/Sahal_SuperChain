@@ -1,0 +1,8 @@
+nav {
+  opacity: 0.8;
+}
+.logo {
+  letter-spacing: 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), 2px 2px 2px rgb(255, 255, 255);
+}

@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  background-image: url("./assets/Hero_Image.jpg");
+  height: 100vh;
+  background-position: 50%;
+  background-size: cover;
+}
+.second-section {
+  background-image: url("./assets/Second_Section.jpg");
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+}
+.third-section {
+  background-image: linear-gradient(#0e1018, #0e1018);
+}
+
+.circle {
+  border-radius: 100%;
+  border: 0.5rem solid #e9d2c4;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.img {
+  width: 4rem;
+  height: 4rem;
+  min-height: 4rem;
+  min-width: 4rem;
+  object-fit: cover;
+}
+.name {
+  color: #101828;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.about {
+  color: #d0d5dd;
+  letter-spacing: normal;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.fift-section {
+  min-height: 80vh;
+  background-color: #eeece9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url("./assets/Hero_Image.jpg");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, repeat-y;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+}
+.Ethereum {
+  font-weight: 600;
+  color: #62688f;
+}
+.Ethereum:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.logos {
+  width: 70%;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+
+footer {
+  border-top: 1px solid black;
+  background-color: #fff;
+  background-position: 50%;
+  background-size: cover;
+  background-image: url(./assets/Second_Section.jpg);
+}
